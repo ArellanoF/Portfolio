@@ -320,7 +320,6 @@ p.is-inverted {
 
 /* sections */
 .hero {
-  background: url("assets/images/circle-cropped.png") no-repeat;
   background-size: 850px;
   background-position: calc(100% + 250px) calc(100% + 400px);
   border-bottom: 5px solid var(--color-primary);
