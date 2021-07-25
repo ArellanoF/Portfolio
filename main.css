@@ -295,7 +295,14 @@ p.is-inverted {
   text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.2);
   white-space: nowrap;
 }
-
+.card.github {
+  background: linear-gradient(-45deg, #b7789f 0%, #ecc94b 100%);
+}
+.card.github::before {
+  background: url("./assets/icons/GitHub.png") no-repeat;
+  background-size: 100%;
+  background-position: calc(100% + 50px) calc(100% + 50px);
+}
 .card.javascript {
   background: linear-gradient(-45deg, #b7791f 0%, #ecc94b 100%);
 }
@@ -399,11 +406,7 @@ p.is-inverted {
   text-align: center;
   margin-left: 200px;
 }
-p.github {
-  color: var(--color-font-highlight);
-  font-size: var(--font-size-md);
-  margin: 20px 0;
-}
+
 @media (max-width: 600px) {
   :root {
     --font-size-base: 14px;
