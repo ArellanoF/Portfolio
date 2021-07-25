@@ -357,6 +357,7 @@ p.is-inverted {
 
 .hero-content {
   max-width: 600px;
+  margin-top: auto;
 }
 
 .biography {
