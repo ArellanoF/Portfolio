@@ -99,6 +99,24 @@ video {
   margin-right: auto;
 }
 /* html elements */
+.containergit {
+  background: url("./assets/logos/html.svg");
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32rem;
+  height: 20rem;
+  transform: perspective(1000px);
+  transform-style: preserve-3d;
+  border-radius: 20px;
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 0.31416316526610644) 100%
+  );
+  transition: all 180ms ease-out;
+}
 
 body {
   background: var(--background-primary);
@@ -438,3 +456,4 @@ p.github {
     word-wrap: break-word;
   }
 }
+/* card */
