@@ -18,11 +18,7 @@
   <section class="wrapper">
   <nav class="navbar navbar-default">
   <div class="container-fluid">
-    <ul class="nav navbar-nav">
-     
-        <button1 onclick="fireSweetAlert()">Contact me
-      </button>
-      
+    <ul class="nav navbar-nav">      
     </ul>
     </ul>
   </div>
@@ -39,23 +35,36 @@
             <img src="./assets/images/guadalest.png">
             
           </h1>
-          
-            <script>
-              function fireSweetAlert() {
-                  Swal.fire({
-                  icon: 'info',
-                  text: 'francescarellano@gmail.com',
-                  padding: 10,
-                  animation: true,
-                  imageUrl: './assets/icons/mail.jpg'
-              })
-    }
-            </script>
           </p>
         </div>
       </div>
 
     </header>
+    <article class="section contact me">
+      <div class="container is-short">
+        <div class="biography-title">
+          <h1 class="title"></h1>
+          <button onclick="fireSweetAlert()">Contact me
+          </button>
+          <script>
+            function fireSweetAlert() {
+                Swal.fire({
+                icon: 'info',
+                text: 'francescarellano@gmail.com',
+                padding: 10,
+                animation: true,
+                imageUrl: './assets/icons/mail.jpg'
+            })
+  }
+          </script>
+        </div>
+        <div>
+          <p><strong>Google Developer Expert in Web Technologies, Conference Organizer, and Online Teacher.</strong></p>
+          <p>Overall in his career, he has witnessed how JavaScript is changing the way we build software in the present
+            and how it is influencing the future.</p>
+        </div>
+      </div>
+    </article>
     <article class="section biography">
       <div class="container is-short">
         <div class="biography-title">
@@ -74,7 +83,7 @@
         </div>
       </div>
     </article>
-    </article>
+    
     <article class="expertise section">
       <div class="container is-column">
         <h1 class="title is-inverted">My Expertise</h1>
