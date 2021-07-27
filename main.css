@@ -494,7 +494,6 @@ p.is-inverted {
   .contact-me .container {
     flex-direction: column;
   }
-  }
 
   .expertise-item.has-cards {
     flex-direction: column;
