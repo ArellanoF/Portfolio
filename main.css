@@ -273,11 +273,11 @@ input:focus {
   margin-bottom: 20px;
   text-align: left;
 }
-@media (min-width: 1500px) {
-  .title-contact {
-    font-size: calc(1em + 1vw);
-  }
+
+.title-contact {
+  font-size: calc(1em + 1vw);
 }
+
 .subtitle {
   font-size: var(--font-size-md);
 }
