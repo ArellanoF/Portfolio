@@ -374,7 +374,7 @@ p.is-inverted {
 }
 
 .card.react::before {
-  background: url("./assets/logos/react.svg") no-repeat;
+  background: url("./assets/logos/laravel.svg") no-repeat;
   background-size: 100%;
   background-position: calc(100% + 50px) calc(100% + 50px);
 }
