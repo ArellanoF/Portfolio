@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Francesc Arellano</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+  <link rel="stylesheet" href="sweetalert2.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Karla&family=Rubik:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./main.css" />
+
+</head>
+
+<body>
+  
+  <nav>
+    <ul>
+      <li><a href="#"></a></li>
+      <li><a href="#"
+          onclick="window.open('https://drive.google.com/file/d/1MC7HKJ0v4kC1auOl6rBY261ZM2Sl3b_C/view?usp=sharing')">Me</a>
+      </li>
+      <li><a href="#" onclick="fireSweetAlert()">Contact</a></li>
+    </ul>
+    <script>
+      function fireSweetAlert() {
+          Swal.fire({
+          icon: 'info',
+          text: 'francescarellano@gmail.com',
+          padding: 10,
+          animation: true,
+          imageUrl: './assets/icons/mail.jpg'
+      })
+  }
+    </script>
+  </nav><!-- / nav -->
+  <section class="wrapper">
+  </section>
+  <main>
+    <header class="section hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="title">
+            <span>Hello,</span> I'm Francesc Arellano</br>
+            <strong>Junior Web developer </strong>
+            <p>Currently living in Maresme, Barcelona.</p>
+            <!--             
+            <img src="./assets/images/guadalest.png">
+             -->
+          </h1>
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <article class="expertise section">
+      <div class="container is-column">
+        <h1 class="title is-inverted">My Expertise</h1>
+        
+        <section class="expertise-item has-cards">
+          <div class="card javascript is-inverted">
+            <h1 class="title">JavaScript</h1>
+            <h2 class="subtitle">TIC TAC TOE</h2>
+            <p> Game, developed with JavaScript, using REST api and Mongoose..</p>
+            <p><a href="https://github.com/ArellanoF/Tic-Tac-Toe" target="_blank">Repository</a></p>
+            <p><a href="https://www.youtube.com/watch?v=4xtkU5GCD6Y" target="_blank">Video demonstration</a></p>
+          </div>
+
+          <div class="card html-css">
+            <h1 class="title">Java</h1>
+            <h2 class="subtitle">Word Search Game</h2>
+            <p>"Sopa Letras" Game, developed in Java, with player authentication in LDAP
+
+              Mysql database where we store the different words and player scores</p>
+            <p><a href="https://github.com/ArellanoF/Tic-Tac-Toe" target="_blank">Repository</a></p>
+            <p><a href="https://www.youtube.com/watch?v=4xtkU5GCD6Y" target="_blank">Video demonstration</a></p>
+          </div>
+          <div class="card react">
+            <h1 class="title">Laravel</h1>
+            <h2 class="subtitle">School Management System</h2>
+            <p>It is a simple Laravel & MySQL application that you can manage a school</p>
+            <p><a href="https://github.com/ArellanoF/SchoolManagementApp-Laravel" target="_blank">Repository</a></p>
+            <p><a href="https://www.youtube.com/watch?v=-0okpwaoPHw" target="_blank">Video demonstration</a></p>
+          </div>
+        </section>
+        <section>
+          <div class="card github is-inverted">
+            <h1 class="title">GitHub</h1>
+
+            <p><a href="https://github.com/ArellanoF" target="_blank">Visit my Github</a></p>
+
+
+          </div>
+        </section>
+
+    </article>
+
+
+    </div>
+    </div>
+    </article>
+    <div>
+      <p><strong>
+      </p>
+    </div>
+    </div>
+
+    </article>
+
+    <footer class="footer">
+      <div class="footer__addr">
+        <h1 class="footer__logo">Francesc Arellano Cachopo</h1>
+
+        <h2>Contact</h2>
+
+        <address>
+          Junior Web Developer<br>
+
+          <a class="footer__btn" onclick="fireSweetAlert()">Email Us</a>
+        </address>
+      </div>
+
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <h2 class="nav__title">Media</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Online</a>
+            </li>
+
+            <li>
+              <a href="#">Print</a>
+            </li>
+
+            <li>
+              <a href="#">Alternative Ads</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item nav__item--extra">
+          <h2 class="nav__title">Technology</h2>
+
+          <ul class="nav__ul nav__ul--extra">
+            <li>
+              <a href="#">Hardware Design</a>
+            </li>
+
+            <li>
+              <a href="#">Software Design</a>
+            </li>
+
+            <li>
+              <a href="#">Digital Signage</a>
+            </li>
+
+            <li>
+              <a href="#">Automation</a>
+            </li>
+
+            <li>
+              <a href="#">Artificial Intelligence</a>
+            </li>
+
+            <li>
+              <a href="#">IoT</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <h2 class="nav__title">Legal</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#">Terms of Use</a>
+            </li>
+
+            <li>
+              <a href="#">Sitemap</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="legal">
+        <p>&copy; 2022 Something. All rights reserved.</p>
+
+        <div class="legal__links">
+          <span>Made with <span class="heart">♥</span> 
+        </div>
+      </div>
+    </footer>
+  </main>
+
+</body>
+
+</html>

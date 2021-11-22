@@ -14,4 +14,3 @@ document.addEventListener("DOMContentLoaded", function () {
       alert(JSON.stringify(data))
     });
   });
-  

@@ -1,152 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Francesc Arellano</title>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-  <link rel="stylesheet" href="sweetalert2.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Karla&family=Rubik:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link rel="stylesheet" href="./main.css" />
-
-</head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="navbar.css" type="text/css">
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    
+    
 <body>
-  <section class="wrapper"></section>
-    <nav>
-      <ul>
-        <li><a href="#"></a></li>
-        <li><a href="#" onclick="window.open('https://drive.google.com/file/d/1MC7HKJ0v4kC1auOl6rBY261ZM2Sl3b_C/view?usp=sharing')">Me</a></li>
-        <li><a href="#" onclick="fireSweetAlert()">Contact</a></li>
-      </ul>
-    </nav><!-- / nav -->
- 
-  
-  <section class="wrapper">
-
-</section>
-  <main>
-    <header class="section hero">
-      <div class="container">
-        <div class="hero-content">
-          <h1 class="title">
-            <span>Hello,</span> I'm Francesc Arellano</br>
-            <strong>Junior Web developer </strong><p>Currently living in Maresme, Barcelona.</p>
-            
-            <img src="./assets/images/guadalest.png">
-            
-          </h1>
-          </p>
-        </div>
-      </div>
-    </header>
-    <article class="expertise section">
-      <div class="container is-column">
-        <h1 class="title is-inverted">My Expertise</h1>
-        <section class="expertise-item has-cards">
-          <div class="card javascript is-inverted">
-            <h1 class="title">JavaScript</h1>
-            <h2 class="subtitle">TIC TAC TOE</h2>
-            <p> Game, developed with JavaScript, using REST api and Mongoose..</p>
-            <p><a href="https://github.com/ArellanoF/Tic-Tac-Toe" target="_blank">Repository</a></p>
-            <p><a href="https://www.youtube.com/watch?v=4xtkU5GCD6Y" target="_blank">Video demonstration</a></p>
-          </div>
-          <div class="card html-css">
-            <h1 class="title">Java</h1>
-            <h2 class="subtitle">Word Search Game</h2>
-            <p>"Sopa Letras" Game, developed in Java, with player authentication in LDAP
-
-              Mysql database where we store the different words and player scores</p>
-            <p><a href="https://github.com/ArellanoF/Tic-Tac-Toe" target="_blank">Repository</a></p>
-            <p><a href="https://www.youtube.com/watch?v=4xtkU5GCD6Y" target="_blank">Video demonstration</a></p>
-          </div>
-          <div class="card react">
-            <h1 class="title">Laravel</h1>
-            <h2 class="subtitle">School Management System</h2>
-            <p>It is a simple Laravel & MySQL application that you can manage a school</p>
-            <p><a href="https://github.com/ArellanoF/SchoolManagementApp-Laravel" target="_blank">Repository</a></p>
-            <p><a href="https://www.youtube.com/watch?v=-0okpwaoPHw" target="_blank">Video demonstration</a></p>
-          </div>
-        </section>
-        <section>
-          <div class="card github is-inverted">
-            <h1 class="title">GitHub</h1>
-            
-            <p><a href="https://github.com/ArellanoF" target="_blank">Visit my Github</a></p>
-            
-           
-          </div>
-        </section>
-        
-    </article>
-    <article class="section contact-me">
-      <div class="container is-short">
-        <div class="biography-title">
-          <h1 class="title-contact">Contact me</h1>
-          <button onclick="fireSweetAlert()">Contact me
-          </button>
-          <script>
-            function fireSweetAlert() {
-                Swal.fire({
-                icon: 'info',
-                text: 'francescarellano@gmail.com',
-                padding: 10,
-                animation: true,
-                imageUrl: './assets/icons/mail.jpg'
-            })
-  }
-          </script>
-          <p><strong>Click on the button if you want to contact me</p>
-        </div>
-      </div>
-    </article>
-    <article class="section biography">
-      
-      <div class="container is-short">
-        <div class="biography-title">
-          <h1 class="title-contact">My biography</h1>
-          <p><strong>As a recent graduate, I would like
-            put into practice all
-            knowledge acquired during my
-            training and be part of a
-            work team that allows me
-            develop personal and
-            professionally</p>
-            <input type="button" value="Visit my CV" onclick="window.open('https://drive.google.com/file/d/1MC7HKJ0v4kC1auOl6rBY261ZM2Sl3b_C/view?usp=sharing')" />
-       
-        </div>
-        <div>
-          <p><strong>
-          </p>
-        </div>
-      </div>
    
-    </article>
-    <article class="contact section not-bottom">
-      <div class="container is-column is-short">
+    <nav>
+        <div class="navbar">
+            <div class="container nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="logo">
+                    <h1>Junior Web Developer</h1>
+                </div>
+                <div class="menu-items">
+                    <li><a href="#" onclick="window.open('https://drive.google.com/file/d/1MC7HKJ0v4kC1auOl6rBY261ZM2Sl3b_C/view?usp=sharing')">Me</a></li>
+                    <li><a href="#" onclick="location.href = 'portfolio.html'" >Portfolio</a></li>
+                    <li><a href="#" onclick="fireSweetAlert()">Contact</a></li>
+                           
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="portada1">
 
-        <div class="contact-container">
-          <div class="social">
-            <h1 class="title is-inverted">Follow me</h1>
-            <p class="is-inverted social">
-              <a href="https://instagram.com/aretek" target="_blank" rel="noreferrer noopener">
-                <img src="./assets/icons/instagram.png"><span>Instagram</span>
-              </a>
-            </p>
-            <p class="is-inverted social">
-              <a href="https://linkedin.com/in/farellanoc" target="_blank" rel="noreferrer noopener">
-                <img src="./assets/icons/linkedin.png"><span>LinkedIn</span>
-              </a>
-            </p>
-          </div>
-          
-    </article>
-    <footer class="main-footer">
-      <p class="footer">All rights reserved - Designed by: Francesc Arellano</p>
+          <img id="img" src="assets\images\1010641.jpg">
+        
+        </div>
+  <!-- Site footer -->
+  <div class="footer-basic">
+    <footer>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/farellanoc/" target="_blank"><i class="icon ion-social-linkedin"></i></a>
+          <a href="https://github.com/ArellanoF" target="_blank"><i class="icon ion-social-github" target="_blank"></i></a>
+          <a href="https://www.instagram.com/aretek" target="_blank"><i class="icon ion-social-instagram"></i></a>
+          <a href="#"><i class="icon ion-social-twitter" target="_blank"></i></a>
+        </div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Portfolio</a></li>
+            <li class="list-inline-item"><a href="#" onclick="window.open('https://drive.google.com/file/d/1MC7HKJ0v4kC1auOl6rBY261ZM2Sl3b_C/view?usp=sharing')">Me</a></li>
+            
+        </ul>
+        <p class="copyright">Francesc Arellano © 2022</p>
     </footer>
-  </main>
-
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  
+    </main>
 </body>
-<script src="../main.js"></script>
+<script>
+    function fireSweetAlert() {
+        Swal.fire({
+        icon: 'info',
+        text: 'francescarellano@gmail.com',
+        padding: 10,
+        animation: true,
+        imageUrl: './assets/icons/mail.jpg'
+    })
+}
+  </script>
 </html>
