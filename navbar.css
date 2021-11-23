@@ -1,4 +1,4 @@
-@media only screen and (max-device-width: 720px) {div#navbar {visibility:hidden;}}
+@media screen and (max-device-width: 720px)
 .logo{
  margin: auto;
 
@@ -32,11 +32,13 @@
   width: 90%;
   margin: auto;
 }
-.navbar {
+@media screen and (max-device-width: 600px){
+ .navbar {
   width: 100%;
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
   color: #093e5e;
-
+  visibility:hidden
+}
 }
 .nav-container {
   display: flex;
