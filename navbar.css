@@ -5,6 +5,9 @@
 }
 .portada1{
   background: linear-gradient(black, white);
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 #img{
