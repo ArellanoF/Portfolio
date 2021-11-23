@@ -669,3 +669,10 @@ p.is-inverted {
     flex: 2 0px;
   }
 }
+nav {
+  color: #fff;
+  background: -webkit-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+}
