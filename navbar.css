@@ -32,7 +32,7 @@
   width: 90%;
   margin: auto;
 }
-@media screen and (max-device-width: 600px){
+@media screen and (max-width: 600px){
  .navbar {
   width: 100%;
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
