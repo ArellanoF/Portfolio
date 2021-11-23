@@ -271,7 +271,7 @@ input:focus {
 .title {
   font-size: var(--font-size-xl);
   margin-bottom: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .title-contact {
@@ -609,6 +609,7 @@ p.is-inverted {
 
 .footer a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .footer__nav {
