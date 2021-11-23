@@ -5,8 +5,8 @@
 }
 .portada1{
   background: linear-gradient(black, white);
-
-  margin: 0 auto;
+  display:block;
+  margin: auto;
   width:100%; 
   height:100%;
 }
