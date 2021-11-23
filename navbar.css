@@ -10,22 +10,22 @@
   margin: 0 auto;
 }
 
-#img{
-   /* cambia estos dos valores para definir el tamaño de tu círculo */
+/* #img{
+   /* cambia estos dos valores para definir el tamaño de tu círculo 
    height: 700px;
    width: 700px;
-   /* los siguientes valores son independientes del tamaño del círculo */
+   /* los siguientes valores son independientes del tamaño del círculo 
    /* background-repeat: no-repeat;
    background-position: 50%;
-   border-radius: 50%; */
+   border-radius: 50%; 
    background-size: 100% auto; 
     display:block;
     margin:auto;
     width:100%;
-    height: auto;
+    height: auto;*/
  
   
-}
+} 
 
 .container {
   max-width: 1050px;
