@@ -676,3 +676,6 @@ p.is-inverted {
   height: 56px;
   line-height: 56px;
 } 
+hr {
+  background-color: rgb(114, 7, 7); 
+  }
