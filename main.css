@@ -432,8 +432,7 @@ p.is-inverted {
 }
 
 .expertise {
-  background: -webkit-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
-}
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(150,207,223,1) 0%, rgba(135,199,216,1) 31%, rgba(121,191,210,1) 61%, rgba(78,168,193,1) 84%);}
 
 .expertise-item {
   margin-bottom: 20px;

@@ -1,4 +1,4 @@
-
+/* 
 .logo{
  margin: auto;
 
@@ -26,7 +26,7 @@
   
 } 
 */
-
+/* 
 .container {
   max-width: 1050px;
   width: 90%;
@@ -152,7 +152,7 @@ font-weight: 500;
 /*FOOTER*/
 /* Estilos CSS Esati:
 */
-.footer-basic {
+ .footer-basic {
   padding:40px 0;
   background-color:#ffffff;
   color:#4b4c4d;
@@ -211,5 +211,25 @@ font-weight: 500;
   color:#aaa;
   margin-bottom:0;
 }
+#page {
+  margin: 0px auto;
+  width: 100%;
+}
 
-/* Credit to https://epicbootstrap.com/snippets/footer-basic */
+#header {
+  
+  top: 0;
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #333;
+  font-size: 20px;
+  color: #FFFFFF;
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(150,207,223,1) 0%, rgba(135,199,216,1) 31%, rgba(121,191,210,1) 61%, rgba(78,168,193,1) 84%);
+}
+
+#content {
+  height: 100%;
+  overflow: auto;
+  padding: 0% 1% 0% 1%;
+  width: 98%;
+}
