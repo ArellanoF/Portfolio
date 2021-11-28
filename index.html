@@ -17,6 +17,9 @@
     <script defer src="function.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.4.6/tailwind.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
       @media only screen and (max-width: 500px){
      
@@ -120,12 +123,13 @@
   </a>
 </div>  -->
 <div class="wallpaper">
-
-  <h1 class="titlePortada">
+    <h1 class="titlePortada">
     <span>Hello,</span> I'm Francesc Arellano</br>
     <strong>Junior Web developer </strong>
     <p>Currently living in Maresme, Barcelona.</p>
+
   </h1>
+
 </div>
 <hr></hr>
 <section id="container-slider">	
@@ -150,7 +154,7 @@
       <li style="background-image: url('https://www.logo.wine/a/logo/GitHub/GitHub-Icon-White-Dark-Background-Logo.wine.svg')">
         <div class="content_slider" >
           <div>
-            <h2>GitHub</h2>
+            <h2>Visit my GitHub</h2>
         <p></p>
         <a href="https://github.com/ArellanoF/" target="_blank" class="btnSlider">More info</a>
       </div>
@@ -167,8 +171,62 @@
       </li> -->
    </ul>
  </section>
- <article class="expertise section">
-    <div class="container is-column">
+ <h1 class="title is-inverted" style="margin-top: 50px; margin-bottom: 50px;">My Expertise</h1>
+  <div class="blog-card">
+    <div class="meta">
+      <div class="photo" style="background-image: url(https://www.alexmedina.net/wp-content/uploads/2019/12/javascript.png)"></div>
+      <ul class="details">
+        <li class="author"><a href="#">Francesc Arellano</a></li>
+        
+        <li class="tags">
+          <ul>
+            <li><a href="#">Javascript</a></li>
+            <li><a href="#">Code</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="description">
+      <h1>Javascript</h1>
+      <h2>TIC TAC TOE</h2>
+      <p> Game, developed with JavaScript, using REST api and Mongoose..</p>
+      <p class="read-more">
+        <a href="https://www.youtube.com/watch?v=4xtkU5GCD6Y" target="_blank">Video Demostration</a>
+      </p>
+      <p class="read-more">
+        <a href="https://github.com/ArellanoF/Tic-Tac-Toe" target="_blank" >Repository</a>
+      </p>
+    </div>
+  </div>
+  <div class="blog-card alt">
+    <div class="meta">
+      <div class="photo" style="background-image: url(https://revistadigital.inesem.es/informatica-y-tics/files/2015/10/inesem-java.jpg)"></div>
+      <ul class="details">
+        <li class="author"><a href="#">Frances Arellano</a></li>
+        <li class="tags">
+          <ul>
+            <li><a href="#">Code</a></li>
+            <li><a href="#">Java</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="description">
+      <h1>Java</h1>
+      <h2>Word Search Game</h2>
+      <p>"Sopa Letras" Game, developed in Java, with player authentication in LDAP</p>
+      <p class="read-more">
+        <a href="https://www.youtube.com/watch?v=y25fAudDEmY" target="_blank">Video Demostration</a>
+      </p>
+      <p class="read-more">
+        <a href="https://github.com/ArellanoF/Word-Search" target="_blank" >Repository</a>
+      </p>
+    </div>
+  </div>
+ <!-- <article class="expertise section">
+      <div class="container is-column">
       <h1 class="title is-inverted">My Expertise</h1>
       <section class="expertise-item has-cards">
         <div class="card javascript is-inverted">
@@ -196,16 +254,38 @@
           <p><a  href="https://github.com/ArellanoF/SchoolManagementApp-Laravel" target="_blank" class="button4">Repository</a></p>
           <p><a href="https://www.youtube.com/watch?v=-0okpwaoPHw" target="_blank" class="button4">Video demonstration</a></p>
         </div>
-      </section>
+        
+      </section> -->
     </div>
-      <!-- <section>
+    <br></br>
+    <div class="containere" style="margin-top: 20px; margin-bottom: 20px;">
+     
+      <div class="carde">
+        <div class="front">
+          <img src="assets\images\images.png" style="width: 200px;">
+         
+        </div>
+        <div class="back">
+          <h2>Francesc Arellano<span>Web <i>&</i> Developer</span></h2>
+          <uli>
+            <img src="assets\images\My.jpg" style="width: 200px;">
+            <lis>+34 636.34.16.02</lis>
+            <lis>francescarellano@gmail.com</lis>
+            <lis>francescarellano.ml</lis>
+            </uli>
+        </div>
+        </div>
+        
+      </div>
+    <!--  
+     <section>
         <div class="card github is-inverted">
           <h1 class="title">GitHub</h1>
           <p><a  href="https://github.com/ArellanoF" target="_blank" class="button4">Repository</a></p>
         </div>
-      </section> -->
-  </article>
-
+      </section> 
+  </article> -->
+  
 </main>
 
   <!-- Site footer -->
