@@ -141,9 +141,9 @@ p {
   float: left; 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
 nav ul {
-  display:none;
+  visibility:hidden;
   list-style: none;
   overflow: hidden; 
 }
