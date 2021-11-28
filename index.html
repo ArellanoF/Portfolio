@@ -20,6 +20,9 @@
      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+      @media only screen and (max-width: 500px){
+     
+      }
       *{
         margin: 0;
         padding: 0;
@@ -59,8 +62,8 @@
       header ul{
         position: relative;
         display: flex;
-        justify-content: center;
-        align-items: center;
+       
+        
       }
   
       header ul li{
@@ -74,8 +77,12 @@
         text-decoration: none;
         color: rgb(5, 29, 49);
         letter-spacing: 2px;
-        font-weight: 600;
+        font-weight: 100%;
+        font-size: 2rem;
         transition: 0.7s;
+        padding: 4rem;
+        max-width: 100%;
+        height: auto;
       }
 
       header.abajo .logo,

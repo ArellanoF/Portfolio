@@ -137,12 +137,16 @@ p {
   margin: auto;
   overflow: hidden;
 }
-nav {
-  float: left; /* Desplazamos el nav hacia la izquierda */
+ nav {
+  float: left; 
 }
+
+@media screen and (max-width: 600px) {
 nav ul {
+  display:none;
   list-style: none;
-  overflow: hidden; /* Limpiamos errores de float */
+  overflow: hidden; 
+}
 }
 nav ul li {
   float: left;
@@ -152,7 +156,7 @@ nav ul li {
 nav ul li a {
   display: block; 
   padding: 20px;
-  color: #fff;
+  color: rgb(7, 3, 29);
   text-decoration: none;
 }
 nav ul li:hover {
