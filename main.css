@@ -13,7 +13,7 @@
   --color-secondary-highlight: #586ba4;
   --color-font-base: #071f47;
   --color-font-highlight: #547aa5;
-  --color-font-inverted: #f5f5f5;
+  --color-font-inverted: #547aa5;
 
   /* backgrounds */
   --background-primary: #f2f4f9;
@@ -423,7 +423,7 @@ p.is-inverted {
 }
 
 .expertise {
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(150,207,223,1) 0%, rgba(135,199,216,1) 31%, rgba(121,191,210,1) 61%, rgba(78,168,193,1) 84%);
+  background: white
   margin-top: 25px;
 }
 .wallpaper{
@@ -560,3 +560,11 @@ display:block;
 margin:0.2em auto;
 }
 }
+
+.portfolio {
+  margin: 10px 50px 20px 0px;
+  display: inline-block;
+  }
+  .portfolio a:hover {
+  opacity: 0.6;
+  }
