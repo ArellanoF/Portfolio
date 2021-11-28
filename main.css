@@ -429,7 +429,7 @@ p.is-inverted {
 .wallpaper{
   height: 100%;
     background-repeat: no-repeat;
-    background: url(https://cdn.pixabay.com/photo/2021/11/26/17/22/17-22-11-491_960_720.jpg) no-repeat center center fixed;
+    
     background-size: 100% 100%;
   height: 600px;
   
