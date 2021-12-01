@@ -10,13 +10,46 @@
 
 </head>
 <body>
-
-        <form action="correo.php" method="POST" data-netlify="true">
-            <input type="text" name="name" placeholder="name" required="">
-            <input type="email" name="email" placeholder="email" required="">
-            <input type="text" name="subject" placeholder="subject" required="">
-            <textarea placeholder="message" name="message" required=""></textarea>
-            <input type="submit" placeholder="submit" required="" name="enviar"> 
-        </form>
+    <div class="contenedor">
+        <h1 class="logo"><span class="nombre-empresa">Francesc</span> Arellano</h1>
+        <div class="wrapper animated bounceInLeft">
+          <div class="info-empresa">
+            <h3>Web developer</h3>
+            <ul class="servicios">
+              
+              <li><i class="fa fa-mobile"></i>+34 636.34.16.02</li>
+              <img src="assets\images\images.png" alt="logo" style="width: 120px" />
+            </ul>
+          </div>
+          <div class="contacto">
+            <h3>Enviar Correo</h3>
+            <form class="formulario" action="index.html" method="POST" data-netlify="true" data-netlify-honeypot="botfield">
+              <p>
+                <label>Nombre</label>
+                <input type="text" name="nombre" required>
+              </p>
+              <p>
+                <label>Empresa</label>
+                <input type="text" name="empresa">
+              </p>
+              <p>
+                <label>Correo</label>
+                <input type="email" name="email" required>
+              </p>
+              <p>
+                <label>Teléfono</label>
+                <input type="text" name="teléfono" required>
+              </p>
+              <p class="full">
+                <label>Mensaje</label>
+                <textarea name="mensaje" required></textarea>
+              </p>
+              <p class="full">
+                <button class="boton-enviar">Enviar</button>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
