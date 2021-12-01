@@ -8,13 +8,22 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #455a64;
   line-height: 1.5;
-  
+  background-image: url(https://www.ecured.cu/images/thumb/7/7f/Monta%C3%B1a00.jpg/1200px-Monta%C3%B1a00.jpg);
+  backdrop-filter: blur(150px);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-size: cover;
+ height: 950px;
+}
+
+
+.container{
+  z-index:99999;
 }
 .contenedor {
   max-width: 1170px;
   margin: 0 auto 1rem;
-  padding: 1.5rem;
-  
+  padding: 1.5rem;  
 }
 .wrapper {
   box-shadow: 0 0 20px 0 rgba(69, 90, 100, 0.7);
