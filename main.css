@@ -564,6 +564,7 @@ margin:0.2em auto;
 }
 
 /* new css */
+@media screen and (max-width: 600px){
 *{box-sizing:border-box}
 .containere {
   width: 600px;
@@ -766,6 +767,7 @@ h2 i {
   font-style: normal;
   text-transform: none;
   font-family: 'Playfair Display', serif;
+}
 }
 
 /*PEN STYLES*/
