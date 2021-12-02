@@ -137,31 +137,7 @@ p {
   margin: auto;
   overflow: hidden;
 }
- nav {
-  float: left; 
-}
 
-@media screen and (max-width: 600px) {
-nav ul {
-  visibility:hidden;
-  list-style: none;
-  overflow: hidden; 
-}
-}
-nav ul li {
-  float: left;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-}
-nav ul li a {
-  display: block; 
-  padding: 20px;
-  color: rgb(7, 3, 29);
-  text-decoration: none;
-}
-nav ul li:hover {
-  background: 255,255,255,0;
-}
 
 button.is-block {
   max-width: 100%;
