@@ -278,7 +278,7 @@ p.is-inverted {
  
 }
 
-.card {
+/* .card {
   position: relative;
   background: var(--color-white);
   padding: 20px;
@@ -288,7 +288,7 @@ p.is-inverted {
     4px 5px 10px 0 rgba(0, 0, 0, 0.1), 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
   width: 280px;
   align-items: center;
-}
+} */
 
 .card::before {
   content: "";
@@ -503,6 +503,19 @@ p.is-inverted {
     text-align: center;
     word-wrap: break-word;
   }
+  .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px !important;
+    height: 250px !important;
+    transform: translate(-50%, -50%);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 5px 18px rgb(0 0 0 / 60%);
+    cursor: pointer;
+    transition: 0.5s;
+}
 }
 /* Button */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
@@ -753,6 +766,7 @@ transition: .3s ease-in-out;
 		bottom: 20px;
 		right: 20px;
 	}
+
 } 
 .card-wrapper {
   width: 400px;
@@ -774,13 +788,12 @@ transition: .3s ease-in-out;
   transition: 0.5s;
 }
 .card .card-image {
-  position: absolute;
   top: 0px;
   left: 0px;
   width: 100%;
   height: 100%;
   z-index: 2;
-  background-color: #000;
+  background-color: #fff;
   transition: 0.5s;
 }
 .card:hover img {
@@ -908,4 +921,10 @@ transition: .3s ease-in-out;
   left: 0;
   transition-delay: 0.5s;
   opacity: 1;
+}
+.containerCard {
+  max-width: 900px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
 }
