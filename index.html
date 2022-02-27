@@ -25,34 +25,33 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 
 </head>
-<script>
-  function oculta(){
- 
- $(".li").on('click', function () {
-  $(".grt-menu-right").css("display", "none");
-        
-      });
-</script>
   <header>
     <div class="menu-container">
       <div class="grt-menu-row">
         <div class="grt-menu-logo">
           <a href="#"  class="grt-logo"><img src="assets\images\images.png"></a>
         </div>
-        <div class="grt-menu-right">
-          <nav>
-            <button class="grt-mobile-button"><span class="line1"></span><span class="line2"></span><span class="line3"></span></button>
+        <div class="grt-menu-right" id="menu">
+          <nav class="main-nav" id="main-nav"> 
+            <button class="grt-mobile-button" id="burger"><span class="line1"></span><span class="line2"></span><span class="line3"></span></button>
             <ul class="grt-menu">
-              <li class="active"><a href="">Home</a></li>
-              <li><a href="#" onclick="window.open('https://drive.google.com/file/d/1uqKmTCdLtYWnW8pXwHy3rZr0kGx4qQBf/view')">Me</a></li>         
-              <li><a href="contacto.html">contact</a></li>	
-              <li><a href="#expertise">Expertise</a></li>							
+              <li class="active"><a class="nav-link"  href="">Home</a></li>
+              <li><a class="nav-link"  href="#" onclick="window.open('https://drive.google.com/file/d/1uqKmTCdLtYWnW8pXwHy3rZr0kGx4qQBf/view')">Me</a></li>         
+              <li><a class="nav-link"  target="_blank"  href="contacto.html">contact</a></li>	
+              <li><a class="nav-link"   href="#expertise">Expertise</a></li>							
             </ul>
           </nav>
         </div>
       </div>
     </div>
-   
+    <script type="text/javascript">
+$(document).ready(function(){
+    $(".nav-link").on('click', function() {
+      $("#burger").click();
+    });
+
+});
+      </script>
 </header>
 <main>
   <a href="#expertise" class="btn-flotante">My Expertise</a>
